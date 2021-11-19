@@ -41,7 +41,7 @@ body {
 .hero-section {
   align-items: center;
   margin: 0 auto;
-  background-image: url(/images/bg_block1.png);
+  background-image: url(../images/bg_block1.png);
     width: 100vw;
     
     background-repeat: round;
@@ -67,7 +67,7 @@ margin-top: 7px;
 }
 
 .hero-section__title_bg {
-    background-image: url(/images/slogan.png);
+    background-image: url(../images/slogan.png);
     width: 492px;
     height: 55px;
 }
@@ -268,8 +268,8 @@ transform: matrix(0.98, 0, -0.21, 1, 0, 0);
    
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid #FFC123;
-  border-radius: 4px;
+  /* border: 1px solid #FFC123; */
+  /* border-radius: 4px; */
 
   width: 120px;
   height: 120px;
