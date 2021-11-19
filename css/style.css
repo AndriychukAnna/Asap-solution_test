@@ -226,6 +226,7 @@ margin: 0;
     font-weight: 500;
 }
 .bonus-list {
+  width: 917px;
 margin-top: 40px;
 }
 .ul-snd-part {
@@ -243,9 +244,6 @@ font-weight: normal;
 font-size: 24px;
 line-height: 127.21%;
 /* identical to box height, or 31px */
-
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
@@ -279,11 +277,8 @@ transform: matrix(0.98, 0, -0.21, 1, 0, 0);
 
 }
 .bonus-list-li {
-    margin-right: 110px;
-   display: inline-block;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+    width: 234px;
+    display: inline-block;
     text-align: center;
 
 }
